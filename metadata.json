@@ -1,0 +1,5 @@
+{
+  "name": "React Cricket Stats Tracker",
+  "description": "A comprehensive cricket statistics tracking application built with React and Tailwind CSS. Log matches, track player performance, view career stats with detailed charts, compare players head-to-head, manage tournaments, and more.",
+  "requestFramePermissions": []
+}
