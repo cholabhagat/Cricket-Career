@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-field {
+        @apply w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-dark-border dark:border-gray-600 dark:text-dark-text;
+    }
+    .btn {
+        @apply px-4 py-2 rounded-md font-semibold text-white transition-colors duration-200;
+    }
+    .btn-sm {
+        @apply px-2 py-1 rounded-md font-semibold text-white transition-colors duration-200 text-sm;
+    }
+    .btn-primary {
+        @apply bg-primary hover:bg-blue-700;
+    }
+    .btn-success {
+        @apply bg-success hover:bg-green-700;
+    }
+    .btn-danger {
+        @apply bg-danger hover:bg-red-700;
+    }
+    .btn-warning {
+        @apply bg-warning hover:bg-yellow-600;
+    }
+    .btn-secondary {
+        @apply bg-gray-500 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-700;
+    }
+    .th-cell {
+        @apply px-6 py-3 text-xs font-medium text-gray-500 dark:text-dark-secondary-text uppercase tracking-wider;
+    }
+    .td-cell {
+        @apply px-6 py-4 whitespace-nowrap;
+    }
+    .tag {
+        @apply bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full dark:bg-blue-200 dark:text-blue-800 flex items-center;
+    }
+    .tag button {
+        @apply ml-1.5 text-blue-800 hover:text-blue-900;
+    }
+}
